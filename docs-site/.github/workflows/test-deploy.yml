@@ -2,18 +2,22 @@ name: Test deployment
 on:
   pull_request:
     branches:
-      - source
+      - source  # ✅ Mudou para source
 jobs:
   test-deploy:
     name: Test deployment
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./docs-site  # ✅ ADICIONE ISSO
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn  # ✅ Mudou de npm para yarn
+          cache: yarn
+          cache-dependency-path: ./docs-site/yarn.lock  # ✅ ADICIONE ISSO
       - name: Install dependencies
-        run: yarn install --frozen-lockfile  # ✅ Mudou de npm ci
+        run: yarn install --frozen-lockfile
       - name: Test build website
-        run: yarn build  # ✅ Mudou de npm run build
+        run: yarn build
