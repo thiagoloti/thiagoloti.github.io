@@ -1,6 +1,6 @@
 ! Title: Ads Personal Whitelist
 ! Description: Personal whitelist for Thiago Loti
-! Version: 1.0
+! Version: 1.1
 ! Last modified: 2026-05-24
 !
 
@@ -34,6 +34,7 @@
 
 ! Substack Bring Back Gold - Personal blog/Newsletter platform
 @@||bringbackgold.substack.com^$important,document
+
 
 ! ============================================
 ! DEVELOPMENT & TOOLS
@@ -74,16 +75,6 @@
 ! Google Tag Manager - Website tag management tool
 @@||tagassistant.google.com^$important,document
 
-! Google Services @ DNS
-@@||support.google.com^
-@@||adsense.google.com^
-@@||ads.google.com^
-@@||analytics.google.com^
-@@||tagassistant.google.com^
-! @@||googleadservices.com^
-! @@||doubleclick.net^
-! @@||googlesyndication.com^
-! @@||google-analytics.com^
 
 ! ============================================
 ! SOCIAL MEDIA & CONTENT PLATFORMS
@@ -105,21 +96,19 @@
 
 ! ============================================
 ! HOSTING & INFRASTRUCTURE
-! (Add VPS providers, DNS services, CDNs here)
 ! ============================================
-! Example: Hostinger control panel
+! Hostinger control panel
 @@||hpanel.hostinger.com^$important,document
 
-! Example: Cloudflare dashboard
+! Cloudflare dashboard
 @@||dash.cloudflare.com^$important,document
 
-! Example: Cloudflare challenges
+! Cloudflare challenges
 @@||challenges.cloudflare.com^$important,document
 
 
 ! ============================================
 ! DATABASE & BACKEND SERVICES
-! (Add Supabase, PostgreSQL services here)
 ! ============================================
 ! Example: Supabase dashboard
 ! @@||supabase.com^$important,document
@@ -127,7 +116,6 @@
 
 ! ============================================
 ! AI & AUTOMATION TOOLS
-! (Add AI platforms, Make.com, other automation)
 ! ============================================
 ! Example: Make.com scenarios
 ! @@||make.com^$important,document
@@ -135,22 +123,18 @@
 
 ! ============================================
 ! VISUAL CONTENT & MEDIA SERVICES
-! (Add Cloudinary, image hosting, video platforms)
 ! ============================================
-! Example: Cloudinary media library
+! Cloudinary media library
 @@||cloudinary.com^$important,document
 @@||res.cloudinary.com^$important,document
 
-! Example: Canva
+! Canva (|| já cobre todos os subdomínios)
 @@||canva.com^$important,document
-@@||*.canva.com^$important,document
 @@||canvacdn.com^$important,document
-@@||*.canvacdn.com^$important,document
 
 
 ! ============================================
 ! PAYMENT & E-COMMERCE
-! (Add payment processors, Stripe, PayPal)
 ! ============================================
 ! Example: Stripe dashboard
 ! @@||stripe.com^$important,document
@@ -158,7 +142,6 @@
 
 ! ============================================
 ! COMMUNICATION & CHAT TOOLS
-! (Add Chatwoot, customer support platforms)
 ! ============================================
 ! Example: Chatwoot instance
 ! @@||app.chatwoot.com^$important,document
@@ -166,7 +149,6 @@
 
 ! ============================================
 ! DOMAIN & SSL MANAGEMENT
-! (Add domain registrars, SSL certificate services)
 ! ============================================
 ! Example: Domain registrar
 ! @@||namecheap.com^$important,document
@@ -174,16 +156,14 @@
 
 ! ============================================
 ! VIDEO & STREAMING PLATFORMS
-! (Add YouTube Studio, video hosting)
 ! ============================================
-! Example: YouTube Studio
+! YouTube Studio
 @@||studio.youtube.com^$important,document
 @@||youtube.com^$important,document
 
 
 ! ============================================
 ! WORDPRESS & CMS PLATFORMS
-! (Add WordPress admin panels, plugin sites)
 ! ============================================
 ! Example: WordPress.org plugin repository
 ! @@||wordpress.org^$important,document
@@ -191,21 +171,20 @@
 
 ! ============================================
 ! TESTING & UTILITIES
-! (Add testing tools, IP checkers, DNS tools)
 ! ============================================
 ! Example: IP address checker
 ! @@||whatismyipaddress.com^$important,document
 
+
 ! ============================================
 ! OTHER DOMAINS & SERVICES
 ! ============================================
-! Shadow PC
+! Shadow PC (|| já cobre todos os subdomínios)
 @@||shadow.tech^$important,document
-@@||*.shadow.tech^$important,document
+
 
 ! ============================================
 ! CUSTOM RULES & EXPERIMENTS
-! (Temporary rules for testing)
 ! ============================================
 
 ! ============================================
