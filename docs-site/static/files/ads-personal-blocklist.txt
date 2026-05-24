@@ -4,17 +4,31 @@
 ! Last modified: 2026-05-24
 !
 
-||analytics.s3.amazonaws.com^
-||analyticsengine.s3.amazonaws.com^
-||analytics.pointdrive.linkedin.com^
-||bdapi-ads.realmemobile.com^
-||adx.ads.oppomobile.com^
-||ck.ads.oppomobile.com^
-||data.ads.oppomobile.com^
-||metrics.data.hicloud.com^
-||metrics2.data.hicloud.com^
-||grs.hicloud.com^
-||logservice.hicloud.com^
-||logservice1.hicloud.com^
-||logbak.hicloud.com^
-||iadsdk.apple.com^
+! ============================================
+! DOMAINS NOT BLOCKED IN THE TEST AD BLOCK TOOLZ (adblock.turtlecute.org)
+! ============================================
+! Amazon Ads
+||analytics.s3.amazonaws.com^$all
+||analyticsengine.s3.amazonaws.com^$all
+
+! LinkedIn Social Tracker
+||analytics.pointdrive.linkedin.com^$all
+
+! Realme OEM
+||bdapi-ads.realmemobile.com^$all
+
+! Oppo OEM
+||adx.ads.oppomobile.com^$all
+||ck.ads.oppomobile.com^$all
+||data.ads.oppomobile.com^$all
+
+! Huawei OEM
+||metrics.data.hicloud.com^$all
+||metrics2.data.hicloud.com^$all
+||grs.hicloud.com^$all
+||logservice.hicloud.com^$all
+||logservice1.hicloud.com^$all
+||logbak.hicloud.com^$all
+
+! Apple OEM
+||iadsdk.apple.com^$all
