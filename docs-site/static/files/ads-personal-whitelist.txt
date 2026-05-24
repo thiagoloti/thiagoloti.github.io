@@ -1,3 +1,9 @@
+! Title: Ads Personal Whitelist
+! Description: Personal whitelist for Thiago Loti
+! Version: 1.0
+! Last modified: 2026-05-24
+!
+
 @@||thiagoloti.com^
 @@||loti.pro^
 @@||n8n.thiagoloti.com^
