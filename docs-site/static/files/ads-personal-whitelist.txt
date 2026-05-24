@@ -35,6 +35,10 @@
 ! Substack Bring Back Gold - Personal blog/Newsletter platform
 @@||bringbackgold.substack.com^$important,document
 
+! Paciência Tem Limite - Main newsletter website
+@@||pacienciatemlimite.com.br^$important,document
+
+
 
 ! ============================================
 ! DEVELOPMENT & TOOLS
