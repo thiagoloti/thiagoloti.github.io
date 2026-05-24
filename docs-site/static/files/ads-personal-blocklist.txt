@@ -1,3 +1,9 @@
+! Title: Ads Personal Blocklist
+! Description: Personal blocklist for Thiago Loti
+! Version: 1.0
+! Last modified: 2026-05-24
+!
+
 ||analytics.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 ||analytics.pointdrive.linkedin.com^
