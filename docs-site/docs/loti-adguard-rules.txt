@@ -1,0 +1,250 @@
+! ============================================
+! Custom AdGuard Allowlist
+! Last Updated: October 25, 2025
+! Description: Whitelist rules for personal and business domains
+! Syntax: @@||domain.com^$important,document
+! ============================================
+
+! ============================================
+! PERSONAL DOMAINS & SERVICES
+! ============================================
+! Personal domain - Thiago Loti
+@@||thiagoloti.com^$important,document
+
+! Personal domain - Loti Pro
+@@||loti.pro^$important,document
+
+! n8n automation instance
+@@||n8n.thiagoloti.com^$important,document
+
+
+! ============================================
+! PERSONAL WEBSITES & PROJECTS
+! ============================================
+! The Urban Herald - Main news website
+@@||theurbanherald.com^$important,document
+
+! The Urban Herald - Short URL domain
+@@||theurb.co^$important,document
+
+! Devotional Drops - Religious content website
+@@||devotionaldrops.com^$important,document
+
+! Devotional Drops - Short URL domain
+@@||ddrp.cc^$important,document
+
+! Substack Bring Back Gold - Personal blog/Newsletter platform
+@@||bringbackgold.substack.com^$important,document
+
+! ============================================
+! DEVELOPMENT & TOOLS
+! ============================================
+! GitHub - Code repository and version control
+@@||github.com^$important,document
+@@||github.io^$important,document
+@@||githubusercontent.com^$important,document
+@@||githubassets.com^$important,document
+@@||github.dev^$important,document
+
+
+! ============================================
+! ANALYTICS & URL MANAGEMENT
+! ============================================
+! Metricool - Social media analytics platform
+@@||app.metricool.com^$important,document
+
+! Short.io - URL shortening service
+@@||app.short.io^$important,document
+
+
+! ============================================
+! GOOGLE SERVICES
+! ============================================
+! Google Support - Help and documentation
+@@||support.google.com^$important,document
+
+! Google AdSense - Ad revenue platform
+@@||adsense.google.com^$important,document
+
+! Google Ads - Online advertising platform
+@@||ads.google.com^$important,document
+
+! Google Analytics - Analytics tool
+@@||analytics.google.com^$important,document
+
+! Google Tag Manager - Website tag management tool
+@@||tagassistant.google.com^$important,document
+
+! Google Services @ DNS
+@@||support.google.com^
+@@||adsense.google.com^
+@@||ads.google.com^
+@@||analytics.google.com^
+@@||tagassistant.google.com^
+! @@||googleadservices.com^
+! @@||doubleclick.net^
+! @@||googlesyndication.com^
+! @@||google-analytics.com^
+
+! ============================================
+! SOCIAL MEDIA & CONTENT PLATFORMS
+! ============================================
+! Facebook Business - Business page management
+@@||business.facebook.com^$important,document
+
+
+! ============================================
+! AFFILIATE PROGRAMS
+! ============================================
+! Amazon Affiliate Program - Partner dashboard
+@@||affiliate-program.amazon.com^$important,document
+@@||*.amazon.*^$important,document
+
+! CJ Affiliate Program - Partner dashboard
+@@||members.cj.com^$important,document
+
+
+! ============================================
+! HOSTING & INFRASTRUCTURE
+! (Add VPS providers, DNS services, CDNs here)
+! ============================================
+! Example: Hostinger control panel
+@@||hpanel.hostinger.com^$important,document
+
+! Example: Cloudflare dashboard
+@@||dash.cloudflare.com^$important,document
+
+! Example: Cloudflare challenges
+@@||challenges.cloudflare.com^$important,document
+
+
+! ============================================
+! DATABASE & BACKEND SERVICES
+! (Add Supabase, PostgreSQL services here)
+! ============================================
+! Example: Supabase dashboard
+! @@||supabase.com^$important,document
+
+
+! ============================================
+! AI & AUTOMATION TOOLS
+! (Add AI platforms, Make.com, other automation)
+! ============================================
+! Example: Make.com scenarios
+! @@||make.com^$important,document
+
+
+! ============================================
+! VISUAL CONTENT & MEDIA SERVICES
+! (Add Cloudinary, image hosting, video platforms)
+! ============================================
+! Example: Cloudinary media library
+@@||cloudinary.com^$important,document
+@@||res.cloudinary.com^$important,document
+
+! Example: Canva
+@@||canva.com^$important,document
+@@||*.canva.com^$important,document
+@@||canvacdn.com^$important,document
+@@||*.canvacdn.com^$important,document
+
+
+! ============================================
+! PAYMENT & E-COMMERCE
+! (Add payment processors, Stripe, PayPal)
+! ============================================
+! Example: Stripe dashboard
+! @@||stripe.com^$important,document
+
+
+! ============================================
+! COMMUNICATION & CHAT TOOLS
+! (Add Chatwoot, customer support platforms)
+! ============================================
+! Example: Chatwoot instance
+! @@||app.chatwoot.com^$important,document
+
+
+! ============================================
+! DOMAIN & SSL MANAGEMENT
+! (Add domain registrars, SSL certificate services)
+! ============================================
+! Example: Domain registrar
+! @@||namecheap.com^$important,document
+
+
+! ============================================
+! VIDEO & STREAMING PLATFORMS
+! (Add YouTube Studio, video hosting)
+! ============================================
+! Example: YouTube Studio
+@@||studio.youtube.com^$important,document
+@@||youtube.com^$important,document
+
+
+! ============================================
+! WORDPRESS & CMS PLATFORMS
+! (Add WordPress admin panels, plugin sites)
+! ============================================
+! Example: WordPress.org plugin repository
+! @@||wordpress.org^$important,document
+
+
+! ============================================
+! TESTING & UTILITIES
+! (Add testing tools, IP checkers, DNS tools)
+! ============================================
+! Example: IP address checker
+! @@||whatismyipaddress.com^$important,document
+
+! ============================================
+! OTHER DOMAINS & SERVICES
+! ============================================
+! Shadow PC
+@@||shadow.tech^$important,document
+@@||*.shadow.tech^$important,document
+
+! ============================================
+! CUSTOM RULES & EXPERIMENTS
+! (Temporary rules for testing)
+! ============================================
+
+! ============================================
+! END OF CUSTOM ALLOWLIST
+! ============================================
+
+
+! ============================================
+! Custom AdGuard Blocklist
+! Last Updated: October 25, 2025
+! Description: Blocklist rules 
+! ============================================
+
+! ============================================
+! DOMAINS NOT BLOCKED IN THE TEST AD BLOCK TOOLZ (adblock.turtlecute.org)
+! ============================================
+! Amazon Ads
+||analytics.s3.amazonaws.com^$all
+||analyticsengine.s3.amazonaws.com^$all
+
+! LinkedIn Social Tracker
+||analytics.pointdrive.linkedin.com^$all
+
+! Realme OEM
+||bdapi-ads.realmemobile.com^$all
+
+! Oppo OEM
+||adx.ads.oppomobile.com^$all
+||ck.ads.oppomobile.com^$all
+||data.ads.oppomobile.com^$all
+
+! Huawei OEM
+||metrics.data.hicloud.com^$all
+||metrics2.data.hicloud.com^$all
+||grs.hicloud.com^$all
+||logservice.hicloud.com^$all
+||logservice1.hicloud.com^$all
+||logbak.hicloud.com^$all
+
+! Apple OEM
+||iadsdk.apple.com^$all
