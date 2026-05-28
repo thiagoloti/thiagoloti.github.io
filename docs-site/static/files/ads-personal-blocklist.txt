@@ -1,4 +1,4 @@
-! Title: Ads Personal Blocklist
+! Title: Loti - Ads Personal Blocklist
 ! Description: Personal blocklist for Thiago Loti
 ! Version: 1.0
 ! Last modified: 2026-05-24
