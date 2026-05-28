@@ -38,6 +38,9 @@
 ! Paciência Tem Limite - Main newsletter website
 @@||pacienciatemlimite.com.br^$important,document
 
+! Paciência Tem Limite - Newsletter platform
+@@||beehiiv.com^$important,document
+
 
 
 ! ============================================
