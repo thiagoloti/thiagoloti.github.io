@@ -1,4 +1,4 @@
-! Title: Ads Personal Whitelist
+! Title: Loti - Ads Personal Whitelist
 ! Description: Personal whitelist for Thiago Loti
 ! Version: 1.1
 ! Last modified: 2026-05-24
@@ -138,6 +138,13 @@
 ! Canva (|| já cobre todos os subdomínios)
 @@||canva.com^$important,document
 @@||canvacdn.com^$important,document
+
+! Envato
+@@||app.envato.com^$important,document
+@@||labs.envato.com^$important,document
+
+! Pictory AI
+@@||app.pictory.ai^$important,document
 
 
 ! ============================================
